@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #ffffff;
+      color: #000000;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    nav a {
+      color: #000000;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    /* Main Banner */
+    .main-banner {
+      height: 230px;
+      background-color: blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    /* Columns */
+    .columns {
+      display: flex;
+    }
+
+    .column {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .column-1 {
+      background-color: #e6e6e6; /* Light gray background color */
+      width: 60%;
+    }
+
+    .column-1 h3 a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    .column-2 {
+      background-color: #f2f2f2; /* Lighter gray background color */
+      width: 40%;
+    }
+
+    .column-2 img {
+      max-width: 40%;
+      height: auto;
+    }
+    
+    footer{
+        background-color: blue;
+        height: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div>
+      
+    </div>
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">Layanan Kami</a>
+      <a href="#">Tentang Kami</a>
+      <a href="#">Kontak Kami</a>
+    </nav>
+  </header>
+
+  <!-- Main Banner -->
+  <div class="main-banner">
+    <h2>Selamat Datang di Website Kami!</h2>
+  </div>
+
+  <!-- Columns -->
+  <div class="columns">
+    <!-- Column 1 -->
+    <div class="column column-1">
+        <h3>
+            <a href="#" class="register-link">Artikel</a>
+        </h3>
+        <h3>
+            <a href="#" class="register-link">Bantuan</a>
+        </h3>
+        <h3>
+            <a href="#" class="register-link">Kuesioner</a>
+        </h3>
+        <h3>
+            <a href="#" class="register-link">Login</a>
+        </h3>
+        <h3>
+            <a href="register.html" class="register-link">Registrasi</a>
+        </h3>
+    </div>
+    
+    <!-- Column 2 -->
+    <div class="column column-2">
+        <img src="beliau.jpg" alt="Foto Kenangan">
+        <h3>A 1902 political cartoon in The Washington Post spawned the Teddy bear name. The name Teddy Bear comes from former United States President Theodore Roosevelt, who was commonly known as "Teddy" (though he loathed being referred to as such).</h3>
+    </div>
+  </div>
+
+  <!-- Content goes here -->
+<footer>
+    <center>@ Copyright</center>
+</footer>
+</body>
+</html>
